@@ -4,3 +4,19 @@
 
 [node name="Main" type="Node"]
 script = ExtResource("1_x61jy")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -202.0
+offset_top = -139.0
+offset_right = 202.0
+offset_bottom = 139.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "THIS IS A LABEL
+Hold Alt and resize the label to have it maintain the anchor point"
+horizontal_alignment = 1
